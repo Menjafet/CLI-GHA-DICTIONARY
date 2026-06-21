@@ -6,6 +6,8 @@ tsv_file="strongHebrewG_c.tsv"
 #tree = ET.parse(xml_file)
 #root = tree.getroot()
 
+
+
 try:
     context = ET.iterparse(xml_file, events=("end",))
 
@@ -17,25 +19,33 @@ try:
         #1            
             if elem.tag == dir+"div":
                 
-                #and elem.get("type").strip()=="entry"
-#"H8552":{"lemma":"תָּמַם","xlit":"tâmam","pron":"taw-mam'","derivation":"a primitive root;","strongs_def":"to complete, in a good or a bad sense, literal, or figurative, transitive or intransitive","kjv_def":"accomplish, cease, be clean (pass-) ed, consume, have done, (come to an, have an, make an) end, fail, come to the full, be all gone, [idiom] be all here, be (make) perfect, be spent, sum, be (shew self) upright, be wasted, whole."},
+    #<div type="entry" n="3508">
+    #   <w gloss="936e" lemma="יֹתֶרֶת" morph="n-f" POS="yo-theh'-reth" xlit="yôthereth" ID="H3508" xml:lang="heb">יתרת</w>
+    #   <list>
+    #     <item>1) appendage,  overhang,  protrusion,  the caudate lobe of the liver of a sacrificial animal</item>
+    #   </list>
+    #   <note type="exegesis">feminine active participle of <w lemma="יָתַר" POS="yaw-thar'" src="3498" xlit="yâthar"/>;</note>
+    #   <note type="explanation"><hi>the lobe</hi> or <hi>flap of the liver</hi> (as if redundant or outhanging)</note>
+    #   <note type="translation">caul.</note>
+    # </div>
                 hebrew_node = elem.find(dir+"w")
-                
-                if hebrew_node is not None:
-                    lemma_word= hebrew_node.get("lemma","").strip()
-                    strong_id =hebrew_node.get("ID").strip()
-                    stripped_word=hebrew_node.text if hebrew_node.text else ""
-                    translit =hebrew_node.get("xlit","").strip()
-                else:
-                    elem.clear()
-                    continue
                 def_segments =[]
 
                 for child in elem:
                     #1
                     if child.tag == dir+"w":
+                        lemma_word  =child.get("lemma","").strip()
+                        strong_id=  child.get("ID") if  child.get("ID") is not None else ""
+                        if strong_id=="H3498":
+                            print("SSSS")
+                        stripped_word=  child.text if  child.text else ""
+                        translit =  child.get("xlit","").strip()
                         continue
                     #2
+                    if child.tag == dir+"list":
+                        
+                        for item in child:
+                            def_segments.append(item.text)
                     if child.tag == dir+"foreign":
                         greek_refs=[]
                         for foreign_w in child.findall(dir+"w") :
@@ -46,12 +56,28 @@ try:
                         if greek_refs:
                             def_segments.append(f"[G:references: {','.join(greek_refs)}]")
                         continue    
-
-                        def_segments.append(child_text)
                     #3
+                    if child.tag==dir+"note":
+                        type=child.get("type","").strip()
+                        deriv=[child.text] if child.text is not None else [""]
+                        for part in child:
+                            if part.tag == dir+"w":
+                                reflemma=part.get("lemma","")if child is not None else ""
+                                resrc=part.get("src","")if child is not None else ""
+                                deriv.append(f"{reflemma} H{resrc} ")
+                            if part.tag== dir+"hi":
+                                hi_cont=part.text if part.text is not None else ""
+                                deriv.append(hi_cont)
+                            if part.tail:
+                                deriv.append(part.tail)
+                        
+                        deriv_result:list=deriv if len(deriv)>0  else [""]
+                        deriv_str=" ".join(deriv_result)
+                        c_note=f"{type}:{deriv_str}"
+                        def_segments.append(c_note)
                     child_text ="".join(child.itertext()).strip()
-                    if child_text:
-                        def_segments.append(child_text)
+                    #if child_text:
+                    #    def_segments.append(child_text)
 
 
                 #clean whitespaces/tabs
