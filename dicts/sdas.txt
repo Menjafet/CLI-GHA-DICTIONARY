@@ -1,0 +1,2738 @@
+{
+    "אשׁקוקא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "a fictitious word for an oath", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "גבורה": {
+        "N": [
+            {
+                "dialects": [
+                    "32", 
+                    "44", 
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "81"
+                ], 
+                "definition": "might", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קטה": {
+        "V01": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "\"he profited\" (in Greek)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קטו": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "stick, rod", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "תימחה": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "soft bark", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "יסוד": {
+        "N": [
+            {
+                "dialects": [
+                    "44", 
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56"
+                ], 
+                "definition": "foundation", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קטל": {
+        "V05": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to be killed (pl.)", 
+                "def_num": "1"
+            }
+        ], 
+        "V04": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to be killed", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "50", 
+                    "71"
+                ], 
+                "definition": "to be executed", 
+                "def_num": "1.2"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to kill", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to pluck off", 
+                "def_num": "3.1"
+            }, 
+            {
+                "dialects": [
+                    "71", 
+                    "74"
+                ], 
+                "definition": "to cut (reeds, trees, etc.)", 
+                "def_num": "3.2"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to kill many", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "54", 
+                    "60"
+                ], 
+                "definition": "to order killed, to execute", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "אקראי": {
+        "A": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "accidental, incidental", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "דאקראי : temporary", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "קטן": {
+        "V01": [
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "74"
+                ], 
+                "definition": "to be small, thin", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "to waste away", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "קטט": {
+        "V02": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to sing in a certain manner", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אנפק": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "unmixed wine", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "(uncertain)", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "סבויה": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "wine retailer", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קבוותא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "ק' דדשׁא :  door-frames", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קטף": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "balsam, resin", 
+                "def_num": "1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "60", 
+                    "71", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "to pluck, to harvest", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to droop(?)", 
+                "def_num": "3"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to pinch dough", 
+                "def_num": "4"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to disturb", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "קטר": {
+        "V04": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to be bound together", 
+                "def_num": "1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to bind, tie on, tie together", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "+&lt;i&gt;tāḡ&lt;/i&gt; : to put on the crown", 
+                "def_num": "1.1.1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to frame, shape, construct", 
+                "def_num": "2"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "knot", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "joint", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "node", 
+                "def_num": "2.1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "restriction", 
+                "def_num": "3.5"
+            }
+        ]
+    }, 
+    "יסור": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "52", 
+                    "53", 
+                    "54", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "frequently as pl. tant.", 
+                "def_num": "1.1"
+            }
+        ]
+    }, 
+    "מרדו#2": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "rebellion", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קבוטר": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "bird (Pers.)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "לבר מן": {
+        "p": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "outside of", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "except for", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "beyond", 
+                "def_num": "3"
+            }
+        ]
+    }, 
+    "ניר": {
+        "N": [
+            {
+                "dialects": [
+                    "44", 
+                    "51", 
+                    "53", 
+                    "54", 
+                    "55", 
+                    "56", 
+                    "60", 
+                    "71", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "yoke", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "weaver's beam", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "tie, connector", 
+                "def_num": "1.2"
+            }
+        ]
+    }, 
+    "טריטי": {
+        "A": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "a gentilic", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ניס": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "54", 
+                    "71", 
+                    "72", 
+                    "81"
+                ], 
+                "definition": "plural as collective", 
+                "def_num": "1.1"
+            }
+        ]
+    }, 
+    "פירוז אנדרפטא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "(zool.) a permitted bird", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "מכנשׁה": {
+        "N": [
+            {
+                "dialects": [
+                    "56", 
+                    "60", 
+                    "71"
+                ], 
+                "definition": "gathering, collection", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרובי": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "halter", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ברישׁ": {
+        "X": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "first", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "at the head", 
+                "def_num": "2"
+            }
+        ], 
+        "p": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "at the head of", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "fig.: main cause of", 
+                "def_num": "3"
+            }
+        ]
+    }, 
+    "אשׁתומא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "confusion(???)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בעירי": {
+        "A": [
+            {
+                "dialects": [
+                    "71", 
+                    "74"
+                ], 
+                "definition": "(of an animal) domesticated", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "דישׁה": {
+        "N": [
+            {
+                "dialects": [
+                    "71", 
+                    "72"
+                ], 
+                "definition": "threshing, threshing floor", 
+                "def_num": "2.1"
+            }
+        ]
+    }, 
+    "ספסיר": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "71", 
+                    "72", 
+                    "81"
+                ], 
+                "definition": "sword or dagger", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "זווא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "pair", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "couple", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "scissors", 
+                "def_num": "3"
+            }
+        ]
+    }, 
+    "אידי": {
+        "R": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "this one", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אידך": {
+        "R": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "the other", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "the remainder (i.e., the other part)", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "סמאל": {
+        "V09": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to place on the left", 
+                "def_num": "1"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "left hand", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "זיותן": {
+        "A": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "fig. : distinguished, splendid, haughty", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "סיכר": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "dam", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ניב": {
+        "N": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "large tooth", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ניח": {
+        "A": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "55", 
+                    "56", 
+                    "60", 
+                    "71"
+                ], 
+                "definition": "easy", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "convenient", 
+                "def_num": "2.2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": " (logic) as a technical term of logical argument:: presenting no problems to one's opinion", 
+                "def_num": "2.2.1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "placid, soft", 
+                "def_num": "3"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to be wanted by someone", 
+                "def_num": "4.1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "to be well/better off", 
+                "def_num": "4.2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to be satisfactory to someone: see s.v. &lt;i&gt;nyḥˀ&lt;/i&gt; adv.", 
+                "def_num": "4.3"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "50", 
+                    "55", 
+                    "60", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "resting, comfort, quiet", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "peacefulness", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "נייח נפשׁא : satisfaction, peace, ease", 
+                "def_num": "2.1"
+            }, 
+            {
+                "dialects": [
+                    "71", 
+                    "81"
+                ], 
+                "definition": "w. ל-: to be satisfactory to someone : see s.v. &lt;i&gt;nyḥ&lt;/i&gt; adv.", 
+                "def_num": "3.1.1"
+            }
+        ]
+    }, 
+    "חסר": {
+        "V01": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to be lacking", 
+                "def_num": "1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "44", 
+                    "51", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to make to lack", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to deprive", 
+                "def_num": "1.1"
+            }
+        ]
+    }, 
+    "דכוות": {
+        "p": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "like", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אוכלא#2": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "laundry vat", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אוכלא#3": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "an eye disease", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "חסס": {
+        "V02": [
+            {
+                "dialects": [
+                    "71", 
+                    "72"
+                ], 
+                "definition": "to be apprehensive, uncertain", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "סלק": {
+        "V05": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to be removed", 
+                "def_num": "2.1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to be defeated in an argument", 
+                "def_num": "3"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "25", 
+                    "60", 
+                    "71"
+                ], 
+                "definition": "beet, beetroot", 
+                "def_num": "2"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to go up", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "13", 
+                    "53"
+                ], 
+                "definition": "to rise in rank", 
+                "def_num": "1.2.2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to go to a higher authority", 
+                "def_num": "1.2.3"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to amount to, total", 
+                "def_num": "1.2.4"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "to result", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to be finished", 
+                "def_num": "2.1.1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to fall to someone's lot", 
+                "def_num": "2.1.2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to travel", 
+                "def_num": "3"
+            }, 
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to travel from a lower elevation to a higher one", 
+                "def_num": "3.1"
+            }, 
+            {
+                "dialects": [
+                    "31", 
+                    "44", 
+                    "53", 
+                    "54", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "in particular, to Eretz Israel", 
+                "def_num": "3.1.1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "fig.: to a place of higher status", 
+                "def_num": "3.1.2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "דעתא", 
+                "def_num": "4.1.3"
+            }
+        ], 
+        "V03": [
+            {
+                "dialects": [
+                    "32", 
+                    "51", 
+                    "53", 
+                    "56", 
+                    "60", 
+                    "71", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "to make ascend, bring upward", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to produce", 
+                "def_num": "1.1.1"
+            }, 
+            {
+                "dialects": [
+                    "44", 
+                    "51", 
+                    "55", 
+                    "56", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to offer up", 
+                "def_num": "1.1.3"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "71"
+                ], 
+                "definition": "to bring from Babylonia to Eretz Israel", 
+                "def_num": "1.1.4"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to produce a claim against", 
+                "def_num": "1.2.3"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to promote in rank", 
+                "def_num": "1.2.6"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to close up a wound or sore", 
+                "def_num": "2.2"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "71"
+                ], 
+                "definition": "to complete", 
+                "def_num": "3"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "&lt;syr&gt;(al bAleh&lt;/syr&gt; or דעתיה to think about", 
+                "def_num": "6.1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "&lt;i&gt;šm&lt;/i&gt; :  to give a name", 
+                "def_num": "6.3"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "שׂרטון : to produce alluvial soil", 
+                "def_num": "6.4"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to cast lots", 
+                "def_num": "7"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to remove from a position", 
+                "def_num": "8"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to make to ascend, raise", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to allow to ascend", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "71", 
+                    "72", 
+                    "81"
+                ], 
+                "definition": "to remove", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to prevail over someone", 
+                "def_num": "2.2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to postpone", 
+                "def_num": "2.3"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to eliminate a mortgage-holding creditor", 
+                "def_num": "2.4"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "+ נפשׁא : to renounce a claim", 
+                "def_num": "2.4.1"
+            }
+        ]
+    }, 
+    "דפתר": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "record book", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "מזבלא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "matting", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פריטין": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "55", 
+                    "56", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "small coins", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "money", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "בוצינ#3": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "pivot/hole", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בוצינ#2": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "60", 
+                    "71"
+                ], 
+                "definition": "(bot.) pumpkin, gourd", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "fig.: pivot", 
+                "def_num": "3"
+            }
+        ]
+    }, 
+    "חמצין": {
+        "N": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "pl. chickpeas", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "משׁניו": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "(med.) strabismus", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "חסם": {
+        "V05": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to become strong", 
+                "def_num": "1"
+            }
+        ], 
+        "A": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "hard one", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "חסל": {
+        "V01": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56"
+                ], 
+                "definition": "to be completed, to be finished, to come to an end", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "74"
+                ], 
+                "definition": "to complete", 
+                "def_num": "3.2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "as co-verb : to consent", 
+                "def_num": "3.2.1"
+            }
+        ]
+    }, 
+    "חסד": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "52", 
+                    "53", 
+                    "54", 
+                    "55", 
+                    "56", 
+                    "60", 
+                    "70", 
+                    "81"
+                ], 
+                "definition": "devotion, devout love", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "חביל#2": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "71", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "שׁמגן": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "strong vinegar", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קולקסייה": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "(bot.) colocasia", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קטע": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "56", 
+                    "60"
+                ], 
+                "definition": "segment, fragment", 
+                "def_num": "1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "53", 
+                    "54", 
+                    "55", 
+                    "56", 
+                    "60", 
+                    "74"
+                ], 
+                "definition": "to cut off, to cut down", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "55", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "to cut into pieces", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "lit.", 
+                "def_num": "2.1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to stipulate, agree on", 
+                "def_num": "2.1.1.1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "fig.", 
+                "def_num": "2.2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to divide into sections", 
+                "def_num": "2.2.1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to cut off", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to divide into sections", 
+                "def_num": "3"
+            }
+        ]
+    }, 
+    "ארקפט": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "couch", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ערכ#2": {
+        "V05": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to be evaluated for dedicatory value", 
+                "def_num": "1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to evaluate dedicatory value", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "רפשׁ": {
+        "V05": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to become soiled", 
+                "def_num": "1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "53", 
+                    "74"
+                ], 
+                "definition": "to throw down", 
+                "def_num": "2"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to break up clods", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פטירבולי": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "54", 
+                    "81"
+                ], 
+                "definition": "magistrate", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ארכא#2": {
+        "N": [
+            {
+                "dialects": [
+                    "71", 
+                    "81"
+                ], 
+                "definition": "pl. meshes (?)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אמתי": {
+        "c": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "when, whenever", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "when ?", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "דאימת : from any time", 
+                "def_num": "3.4"
+            }
+        ]
+    }, 
+    "צפה": {
+        "N": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "rush mat", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "נימ#2": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "strand of hair", 
+                "def_num": "3"
+            }
+        ]
+    }, 
+    "דיר#2": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "60", 
+                    "70", 
+                    "71", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "inhabitant", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "proselyte", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "פרן": {
+        "V03": [
+            {
+                "dialects": [
+                    "53", 
+                    "54", 
+                    "56", 
+                    "81"
+                ], 
+                "definition": "to give marriage gifts (bride-price)", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to provide a dowry", 
+                "def_num": "2"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "50", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "marriage settlement (&lt;i&gt;ketubbah&lt;/i&gt;)", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "marriage deed", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "צפי": {
+        "V01": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "54", 
+                    "56", 
+                    "71"
+                ], 
+                "definition": "to look out, to observe", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to foresee", 
+                "def_num": "1.1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "53", 
+                    "54"
+                ], 
+                "definition": "to look out for", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרם": {
+        "V04": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to be split", 
+                "def_num": "1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "to cut", 
+                "def_num": "1"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "chopped food", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קוקני": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "urn", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרך": {
+        "V05": [
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "to be crushed to pieces", 
+                "def_num": "2"
+            }
+        ], 
+        "V04": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to be crumbled, crushed by hand", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "fig. : to be refuted", 
+                "def_num": "2"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "44", 
+                    "55", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to crumble, crush something", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "p.p. crushed", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "fig. :  to raise an objection", 
+                "def_num": "2"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "to remove husks by rubbing", 
+                "def_num": "1.1"
+            }
+        ]
+    }, 
+    "פרי": {
+        "V01": [
+            {
+                "dialects": [
+                    "71", 
+                    "74"
+                ], 
+                "definition": "to increase", 
+                "def_num": "1.1"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "22", 
+                    "23", 
+                    "44", 
+                    "53", 
+                    "56", 
+                    "60"
+                ], 
+                "definition": "fruit, produce", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרט": {
+        "V01": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "to separate", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "71"
+                ], 
+                "definition": "to specify", 
+                "def_num": "5"
+            }
+        ]
+    }, 
+    "פרח": {
+        "A": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "transient", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "(camel) fast running", 
+                "def_num": "2.1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to fly", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to depart suddenly", 
+                "def_num": "1.1.1"
+            }, 
+            {
+                "dialects": [
+                    "53", 
+                    "60"
+                ], 
+                "definition": "to crawl", 
+                "def_num": "3"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to vibrate", 
+                "def_num": "4"
+            }
+        ], 
+        "V03": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "56", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "to make to fly", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to refute", 
+                "def_num": "3"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "(bot.) caper tree", 
+                "def_num": "1.1"
+            }
+        ]
+    }, 
+    "עשׁי": {
+        "V02": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to force", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to influence", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "גולגיק": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "(Roman) shoe", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרד": {
+        "V05": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to flee", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "51", 
+                    "71"
+                ], 
+                "definition": "to be scattered", 
+                "def_num": "2"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "50", 
+                    "71"
+                ], 
+                "definition": "mule", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בסר": {
+        "N": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "flesh", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "55", 
+                    "60", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "+ &lt;i&gt;wdm&lt;/i&gt; : human being", 
+                "def_num": "3"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "to treat with disdain constantly", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to put to shame", 
+                "def_num": "2.1"
+            }
+        ]
+    }, 
+    "עשׁן": {
+        "V05": [
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "to be made strong", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אקרוקה": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "frog", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "קקופרגמון": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "ill-behaved person", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "לחלוחי": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "fish brine (?)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרת": {
+        "V05": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to be split", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to be separated", 
+                "def_num": "1.1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "fig.: to speak disdainfully of someone (comp. English 'to take apart')", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "ייסי חלי": {
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "(bot.) a type of bitter herb", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בסם": {
+        "V05": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to be made sweet", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to become intoxicated", 
+                "def_num": "4.1"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "spice, perfume", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "often pl. tant.", 
+                "def_num": "1.1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "53", 
+                    "60", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "to perfume", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "55", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "fig.: to cause joy", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "טרי#4": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "מי ט' :  ink (?)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרץ": {
+        "A": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "lustful, licentious", 
+                "def_num": "1"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "51", 
+                    "71"
+                ], 
+                "definition": "to make a breach", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to behave licentiously", 
+                "def_num": "2"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "hole, gap", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בסי": {
+        "V02": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to despise (?), insult (?)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרע": {
+        "V04": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to be punished", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to accept payment", 
+                "def_num": "2"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "42", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to pay back", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "20", 
+                    "21", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "the debt", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "the creditor", 
+                "def_num": "1.2"
+            }
+        ]
+    }, 
+    "טרי#3": {
+        "N": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "striking upon", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "שׁובלה#2": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "53"
+                ], 
+                "definition": "current", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בחשׁי": {
+        "X": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "81"
+                ], 
+                "definition": "quietly", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "עלילה": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "54", 
+                    "56"
+                ], 
+                "definition": "false charge", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "חומתא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "(bot.) a plant name", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "שׁחר": {
+        "N": [
+            {
+                "dialects": [
+                    "53", 
+                    "54", 
+                    "56", 
+                    "81"
+                ], 
+                "definition": "early morning", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "שׁחק": {
+        "V04": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to be ground up", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "fig.:  to be depressed, upset", 
+                "def_num": "2"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "00"
+                ], 
+                "definition": "to grind", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "p.p. depressed (mental state)", 
+                "def_num": "2.2.1"
+            }
+        ], 
+        "V02": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to curse a deceased person (i.e. to say שׁחיק טמייה: may his bones be crushed", 
+                "def_num": "4"
+            }
+        ]
+    }, 
+    "כרכושׁה": {
+        "N": [
+            {
+                "dialects": [
+                    "71", 
+                    "81"
+                ], 
+                "definition": "weasel", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "גידרון": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "young ass", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "בעיר": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "50", 
+                    "53", 
+                    "52", 
+                    "55", 
+                    "54", 
+                    "56", 
+                    "41", 
+                    "43", 
+                    "42", 
+                    "45", 
+                    "44", 
+                    "46", 
+                    "71", 
+                    "70", 
+                    "72", 
+                    "74", 
+                    "60", 
+                    "81", 
+                    "82"
+                ], 
+                "definition": "collective: animals, beasts", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אשׁי#2": {
+        "N": [
+            {
+                "dialects": [
+                    "43", 
+                    "51", 
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "wall", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "אשׁי#3": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "metal plaque", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "פרסה#2": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "71", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "parasang", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "דירה#2": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "70", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "dwelling (structure)", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "רציץ": {
+        "A": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "bruised", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "ברדא": {
+        "N": [
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "a cosmetic compound", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "שׁחם": {
+        "V01": [
+            {
+                "dialects": [
+                    "60", 
+                    "71", 
+                    "81"
+                ], 
+                "definition": "to be black", 
+                "def_num": "1"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "50", 
+                    "71", 
+                    "74"
+                ], 
+                "definition": "blackness", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "שׁחל": {
+        "V01": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to exude moisture", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to flow", 
+                "def_num": "2"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to draw something out of a liquid", 
+                "def_num": "3.1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "p.p. see s.v. &lt;i&gt;šḥyl&lt;/i&gt; adj.", 
+                "def_num": "5"
+            }
+        ]
+    }, 
+    "שׁחי": {
+        "V01": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to waste away", 
+                "def_num": "1.1"
+            }, 
+            {
+                "dialects": [
+                    "71", 
+                    "81"
+                ], 
+                "definition": "fig.: to cower", 
+                "def_num": "3"
+            }
+        ], 
+        "N": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "בי שׁחייה", 
+                "def_num": "1.1"
+            }
+        ]
+    }, 
+    "עמרני": {
+        "N": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "wool-bearing stuff", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "מרו": {
+        "N": [
+            {
+                "dialects": [
+                    "51", 
+                    "53", 
+                    "55", 
+                    "60", 
+                    "81"
+                ], 
+                "definition": "domination, dominion", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "מרה": {
+        "N": [
+            {
+                "dialects": [
+                    "41", 
+                    "51", 
+                    "53", 
+                    "55", 
+                    "60", 
+                    "70", 
+                    "72", 
+                    "74"
+                ], 
+                "definition": "mistress", 
+                "def_num": "1"
+            }
+        ]
+    }, 
+    "צפצפ#2": {
+        "V09": [
+            {
+                "dialects": [
+                    "53"
+                ], 
+                "definition": "to squeak (mice)", 
+                "def_num": "2"
+            }
+        ]
+    }, 
+    "מרד": {
+        "A": [
+            {
+                "dialects": [
+                    "24", 
+                    "31", 
+                    "51", 
+                    "53", 
+                    "54", 
+                    "74", 
+                    "81"
+                ], 
+                "definition": "rebellious", 
+                "def_num": "1"
+            }
+        ], 
+        "V04": [
+            {
+                "dialects": [
+                    "60", 
+                    "71"
+                ], 
+                "definition": "to resist", 
+                "def_num": "1"
+            }, 
+            {
+                "dialects": [
+                    "71"
+                ], 
+                "definition": "to run away", 
+                "def_num": "2"
+            }
+        ], 
+        "V01": [
+            {
+                "dialects": [
+                    "21", 
+                    "20", 
+                    "23", 
+     

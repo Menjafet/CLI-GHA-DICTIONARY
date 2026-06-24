@@ -1,0 +1,50 @@
+ {
+   "path": "schemas/Zohar.json",
+   "url": "https://storage.googleapis.com/sefaria-export/schemas/Zohar.json",
+   "size": 4610185
+  },
+  {
+   "path": "schemas/Zohar_Chadash.json",
+   "url": "https://storage.googleapis.com/sefaria-export/schemas/Zohar_Chadash.json",
+   "size": 40390
+  },
+
+
+  import json
+import requests
+
+# Define the target word and the exact dictionary name on Sefaria
+# Valid lookup dictionary names: "Jastrow", "Klein Dictionary", "BDB Aramaic"
+WORD_TO_LOOKUP = "אנא"
+DICTIONARY_NAME = "Jastrow"
+
+# Sefaria API endpoint for lookup engines
+url = f"https://sefaria.org{WORD_TO_LOOKUP}"
+
+try:
+    response = requests.get(url)
+    if response.status_code == 200:
+        data = response.json()
+
+        # Iterate through the dictionary records to isolate the chosen lexicon
+        for entry in data:
+            if entry.get("parent_lexicon") == DICTIONARY_NAME:
+                # Pretty print the dictionary JSON object
+                print(json.dumps(entry, ensure_ascii=False, indent=4))
+    else:
+        print(f"Error fetching data: Status code {response.status_code}")
+except Exception as e:
+    print(f"An error occurred: {e}")
+
+
+
+    result
+    {
+    "headword": "אֲנָא",
+    "parent_lexicon": "Jastrow",
+    "content": {
+        "morphology": "pron. ch.",
+        "explanation": "I, myself (Heb. אָנֹכִי)..."
+    },
+    "refs": ["Berachot 5a", "Gittin 60b"]
+}
