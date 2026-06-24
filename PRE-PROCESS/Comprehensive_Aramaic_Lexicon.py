@@ -1,7 +1,7 @@
 import json
-
-INPUT_FILE='./dicts/dictfull.json'
-OUTPUT_FILE='./dicts/dictfull.tsv'
+#CAL is  Comprehensive Aramaic Lexicon (CAL) database,
+INPUT_FILE='./../RAW-DATA/dictfull.json'
+OUTPUT_FILE='./../DATA/dictfull.tsv'
 #giveup dialectics but
 def convert_json_tsv():
     try:

@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
-xml_file="strongsgreek.xml"
-tsv_file="strongsgreek_c.tsv" 
+xml_file="./../RAW-DATA/greek_strong.xml"
+tsv_file="./../DATA/greek_strong.tsv" 
 
 tree = ET.parse(xml_file)
 root = tree.getroot()

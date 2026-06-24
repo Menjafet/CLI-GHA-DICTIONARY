@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 
-xml_file="stronghebrewg.xml"
-tsv_file="strongHebrewG_c.tsv" 
+xml_file="./../RAW-DATA/hebrew_strong.xml"
+tsv_file="./../DATA/hebrew_strong.tsv" 
 
 #tree = ET.parse(xml_file)
 #root = tree.getroot()
@@ -17,15 +17,6 @@ try:
         #1            
             if elem.tag == dir+"div":
                 
-    #<div type="entry" n="3508">
-    #   <w gloss="936e" lemma="יֹתֶרֶת" morph="n-f" POS="yo-theh'-reth" xlit="yôthereth" ID="H3508" xml:lang="heb">יתרת</w>
-    #   <list>
-    #     <item>1) appendage,  overhang,  protrusion,  the caudate lobe of the liver of a sacrificial animal</item>
-    #   </list>
-    #   <note type="exegesis">feminine active participle of <w lemma="יָתַר" POS="yaw-thar'" src="3498" xlit="yâthar"/>;</note>
-    #   <note type="explanation"><hi>the lobe</hi> or <hi>flap of the liver</hi> (as if redundant or outhanging)</note>
-    #   <note type="translation">caul.</note>
-    # </div>
                 hebrew_node = elem.find(dir+"w")
                 def_segments =[]
 
