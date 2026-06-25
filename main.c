@@ -1,13 +1,13 @@
 #include <assert.h>
-#include <stdint.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #define BASIC_TYPES
+#define STRING_UTF8
 #include "basic_lib.h"
 #include <stdbool.h>
 
-#define  GREAT_SUCCESS  0;
+#define GREAT_SUCCESS 0;
 typedef struct
 {
   const u32 lines;
@@ -15,19 +15,22 @@ typedef struct
   const char *tsv;
 } Lang;
 
+//--APOLOGY---
+// look... the swap is unnecesary but if this is ever run on something
+// with diferent architecture of arm64 it will be fine idx
 u32
 swap_u32 (u32 v)
 { // 4 bytes 32 bits 1byte 4times 8+8+8+8
-  // from little indian to big indian
+  // from little endian to big endian
   return ((v << 24) & 0xff000000) | ((v << 8) & 0x00ff0000)
          | ((v >> 8) & 0x0000ff00) | ((v >> 24) & 0x000000ff);
 }
 
 // IDX CONTAINS LINE_SIZES AND POSITIONS
-void
-GENERATE_IDX_FILE (Lang language, FILE *file_pointer,
-                                FILE *idx_file)
+u0
+GENERATE_IDX_FILE (Lang language, FILE *file_pointer, FILE *idx_file)
 {
+
   u32 header[3] = { swap_u32 (0x00000C02), // magic number to validate it is
                     swap_u32 (language.lines), swap_u32 (2) };
 
@@ -57,9 +60,9 @@ GENERATE_IDX_FILE (Lang language, FILE *file_pointer,
     }
 }
 
-void
+u0
 provide_entry (FILE *file_pointer, FILE *idx_file, u32 entry_index)
-{ 
+{
   // 12 bytes header + index * 2elemts per row* 4bytes per elemt
   long idx_offset = 12 + (entry_index * 2 * sizeof (u32));
 
@@ -105,7 +108,6 @@ typedef enum
   R  // RE INDEX DICTIONARIES
 } Command;
 
-
 Command
 getCommand (char *val)
 {
@@ -131,15 +133,38 @@ is_number (char *arg_val)
   return false;
 }
 
-void str_demo(){
+void
+str_demo ()
+{
 
-  exit(0);
+  printf ("Size of float: %lu bytes  %lu bits\n", sizeof (float),
+          sizeof (float) * 8); // Will print 4
+  printf ("Size of double: %lu bytes %lu bits\n", sizeof (double),
+          sizeof (double) * 8); // Will print 8
+  printf ("Size of _Float16: %lu bytes %lu bits\n", sizeof (_Float16),
+          sizeof (_Float16) * 8);
+  // utf8_char_line();
+
+  char  s[5] = "σאa";
+  //ALWAYS APPEND \0 AT THE END
+  
+  printf ("%zu size ", strlen(s));
+  // utf8_print_chars(s);
+  //  for (size_t i = 0; 1 < 3; i++)
+  //{
+      // u8 current_c=utf8_char_len(s[i]);
+  //  }
+  // u8 sd =utf8_char_len (char first_byte);
+  //  printf (" size of it %zu", utf8_strlen (s));
+  //   void utf8_print_char (const char *str_ptr);
+
+  exit (0);
 }
 
 int
 main (int argc, char *argv[])
 {
-  str_demo();
+  str_demo ();
   const Lang ARAMAIC = { .lines = 8215,
                          .idx = "./DATA/dictfull.idx",
                          .tsv = "./DATA/dictfull.tsv" };
@@ -176,8 +201,7 @@ main (int argc, char *argv[])
       if (getCommand (argv[1]) == R)
         {
 
-          GENERATE_IDX_FILE (ARAMAIC, file_pointer_AR,
-                                          idx_file_AR);
+          GENERATE_IDX_FILE (ARAMAIC, file_pointer_AR, idx_file_AR);
           GENERATE_IDX_FILE (GREEK, file_pointer_G, idx_file_G);
           GENERATE_IDX_FILE (HEBREW, file_pointer_H, idx_file_H);
           fclose (file_pointer_AR);
@@ -197,7 +221,7 @@ main (int argc, char *argv[])
         }
 
       char *arg_val = argv[2];
-      if (is_number (arg_val) )
+      if (is_number (arg_val))
         {
           entry = atoi (arg_val);
           switch (getCommand (argv[1]))
@@ -240,5 +264,4 @@ main (int argc, char *argv[])
   printf ("Command not provided:see -> ");
   printf ("%s", help);
   return GREAT_SUCCESS;
-  
 }
