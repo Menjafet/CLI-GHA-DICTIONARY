@@ -30,8 +30,8 @@ swap_u32 (u32 v)
 u0
 GENERATE_IDX_FILE (Lang language, FILE *file_pointer, FILE *idx_file)
 {
-
-  u32 header[3] = { swap_u32 (0x00000C02), // magic number to validate it is
+ // magic number to validate it is
+  u32 header[3] = { swap_u32 (0x00000C02),
                     swap_u32 (language.lines), swap_u32 (2) };
 
   fwrite (header, sizeof (u32), 3, idx_file);
@@ -60,8 +60,7 @@ GENERATE_IDX_FILE (Lang language, FILE *file_pointer, FILE *idx_file)
     }
 }
 
-u0
-provide_entry (FILE *file_pointer, FILE *idx_file, u32 entry_index)
+u0 provide_entry (FILE *file_pointer, FILE *idx_file, u32 entry_index)
 {
   // 12 bytes header + index * 2elemts per row* 4bytes per elemt
   long idx_offset = 12 + (entry_index * 2 * sizeof (u32));
@@ -143,22 +142,11 @@ str_demo ()
           sizeof (double) * 8); // Will print 8
   printf ("Size of _Float16: %lu bytes %lu bits\n", sizeof (_Float16),
           sizeof (_Float16) * 8);
-  // utf8_char_line();
-
-  char  s[5] = "σאa";
-  //ALWAYS APPEND \0 AT THE END
-  
-  printf ("%zu size ", strlen(s));
-  // utf8_print_chars(s);
-  //  for (size_t i = 0; 1 < 3; i++)
-  //{
-      // u8 current_c=utf8_char_len(s[i]);
-  //  }
-  // u8 sd =utf8_char_len (char first_byte);
-  //  printf (" size of it %zu", utf8_strlen (s));
-  //   void utf8_print_char (const char *str_ptr);
-
-  exit (0);
+//it prints 8 size
+  char  s[7+2] = "ײַמת"; //ALWAYS APPEND \0 AT THE END
+  String8 sr8=new_str8(s);
+  str8_stat(sr8);
+ exit (0);
 }
 
 int
@@ -178,7 +166,7 @@ main (int argc, char *argv[])
                "dicitonary\n gha -h entry ->strong hebrew entry\n gha -a "
                "entry -> entry in aramaic of the CAL\n gha -r reindex all the "
                "dictionaries from the  tsv's"
-               "\n gha -s word ->search exact match";
+               "\n gha -sh word ->search exact match in hebrew";
 
   i64 entry = 0;
   if (argc >= 2)

@@ -36,8 +36,8 @@ void test ();
 #define STRING_UTF8
 #include <string.h>
 u8 utf8_char_len (char first_byte);
-size_t utf8_strlen ( char *str);
-void utf8_print_chars(const char *str_ptr);
+size_t utf8_strlen (char *str);
+void utf8_print_chars (const char *str_ptr);
 
 #endif // include STRING_UTF8
 
@@ -67,7 +67,7 @@ typedef double f64;   //: 64-bit width (matches IEEE-754 binary64)
 void
 test ()
 {
-  
+
   printf ("test is great");
 }
 
@@ -115,7 +115,8 @@ typedef struct
 {
   char data[MAX_STR_LEN];
   u16 size;
-} string8;
+  u16 bytes;
+} String8;
 
 u8
 utf8_char_len (char first_byte)
@@ -123,13 +124,13 @@ utf8_char_len (char first_byte)
   // Returns how many bytes a specific UTF-8 character starts with (1 to 4)
   unsigned char b = (unsigned char)first_byte;
 
-  if ((b & 0x10000000) == 0x00000000)
+  if ((b & 0b10000000) == 0b00000000)
     return 1;
-  if ((b & 0x11100000) == 0x11000000)
+  if ((b & 0b11100000) == 0b11000000)
     return 2;
-  if ((b & 0x11110000) == 0x11100000)
+  if ((b & 0b11110000) == 0b11100000)
     return 3;
-  if ((b & 0x11111000) == 0x11110000)
+  if ((b & 0b11111000) == 0b11110000)
     return 4;
   return 1;
 }
@@ -150,28 +151,47 @@ utf8_strlen (const char *str)
   return length;
 }
 void
-utf8_print_chars ( char *str_ptr)
-{
-  u8 bytes = utf8_char_len (*str_ptr);
-  printf("  %hhu",bytes);
-  
+utf8_print_chars (const char *str)
+{ // %.*s print precise number of characters without needing
+  //\0 to stop  reg %s reads until \0 stops it
+  // but the latter allows to stop where the len says
+  // . specify strict precision limit
+  // * dont hardcode the precision limit here,
+  // i will pass it to you as an argument
+  // right before the string .ejemplo 0.4f
+  // printf("%.2s", &str[i]); Prints ebactly 2 bytes and stops
+
+  size_t i = 0;
+  while (str[i] != '\0')
+    {
+      u8 len = utf8_char_len ((unsigned char)str[i]);
+      printf ("%.*s", len, &str[i]);
+      i += len;
+    }
 }
 
-string8
-str_new (const char *initial_str)
+void
+str8_stat (String8 sr8)
 {
-  string8 s;
-  s.size = strlen (initial_str);
+  utf8_print_chars (sr8.data);
+  printf (" size:%hu bytes:%hu \n", sr8.size, sr8.bytes);
+}
 
+String8
+new_str8 (const char *str)
+{
+  String8 s;
+  s.size = strlen (str);
+  s.bytes = 0;
   s.size = (s.size >= MAX_STR_LEN) ? MAX_STR_LEN - 1 : s.size;
   // strncpy(s.data, initial_str, s.size);
-
-  u16 i;
-  for (i = 0; i < s.size && initial_str[i] != '\0'; i++)
+  u16 i = 0;
+  while (str[i] != '\0')
     {
-      s.data[i] = initial_str[i];
+      s.data[i] = str[i];
+      i++;
     }
-
+  s.bytes = i;
   s.data[s.size] = '\0'; // Ensure null-termination
   return s;
 }
