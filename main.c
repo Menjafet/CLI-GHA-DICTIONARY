@@ -30,9 +30,9 @@ swap_u32 (u32 v)
 u0
 GENERATE_IDX_FILE (Lang language, FILE *file_pointer, FILE *idx_file)
 {
- // magic number to validate it is
-  u32 header[3] = { swap_u32 (0x00000C02),
-                    swap_u32 (language.lines), swap_u32 (2) };
+  // magic number to validate it is
+  u32 header[3]
+      = { swap_u32 (0x00000C02), swap_u32 (language.lines), swap_u32 (2) };
 
   fwrite (header, sizeof (u32), 3, idx_file);
   fseek (file_pointer, 0, SEEK_SET);
@@ -60,7 +60,8 @@ GENERATE_IDX_FILE (Lang language, FILE *file_pointer, FILE *idx_file)
     }
 }
 
-u0 provide_entry (FILE *file_pointer, FILE *idx_file, u32 entry_index)
+u0
+provide_entry (FILE *file_pointer, FILE *idx_file, u32 entry_index)
 {
   // 12 bytes header + index * 2elemts per row* 4bytes per elemt
   long idx_offset = 12 + (entry_index * 2 * sizeof (u32));
@@ -100,11 +101,14 @@ u0 provide_entry (FILE *file_pointer, FILE *idx_file, u32 entry_index)
 
 typedef enum
 {
-  N, // NOT FOUND
-  G, // GREEK
-  H, // HEBREW
-  A, // ARAMAIC
-  R  // RE INDEX DICTIONARIES
+  N,  // NOT FOUND
+  SG, // GREEK
+  SH, // HEBREW
+  SA, // ARAMAIC
+  G,  // GREEK
+  H,  // HEBREW
+  A,  // ARAMAIC
+  R   // RE INDEX DICTIONARIES
 } Command;
 
 Command
@@ -142,11 +146,22 @@ str_demo ()
           sizeof (double) * 8); // Will print 8
   printf ("Size of _Float16: %lu bytes %lu bits\n", sizeof (_Float16),
           sizeof (_Float16) * 8);
-//it prints 8 size
-  char  s[7+2] = "ײַמת"; //ALWAYS APPEND \0 AT THE END
-  String8 sr8=new_str8(s);
-  str8_stat(sr8);
- exit (0);
+  // it prints 8 size
+  /*  char s[7 + 2] = "ײַמת"; // ALWAYS APPEND \0 AT THE END
+    String8 sr8 = new_str8 (s);
+    str8_stat (sr8);
+  */
+
+  char input_text[] = "אָמַר, ἕξ!";
+  char clean_text[64]
+      = ""; // Oversized manual array to safeguard against overruns
+
+  strip_diacritics (input_text, clean_text);
+
+  printf ("Original: %s\n", input_text);
+  printf ("Stripped: %s\n", clean_text);
+
+  exit (0);
 }
 
 int
